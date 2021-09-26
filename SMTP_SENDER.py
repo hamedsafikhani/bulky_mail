@@ -55,24 +55,3 @@ for i in login_mails:
                       + "--------------------------"+ "\n")
         blockmails.close()
         print("_____________________________________")
-
-#
-# f  = open('./mail-send-list.txt')
-# mailList = []
-# for i in f.readlines() :
-#     # mailList.append(i.strip())
-#     print(i.strip())
-#     try:
-#         email_user = i.strip()
-#         email_password = 'nJVx2@unLvK8AgjQ'
-#         # email_password = 'hamed856658@!hamed'
-#         server = smtplib.SMTP('smtp.office365.com',587)
-#         server.starttls()
-#         server.login(email_user,email_password)
-#         server.quit()
-#         print("Log in : ", i.strip())
-#     except:
-#         print("Log in ERR : ",i.strip())
-#         r = open('./blockedMails.txt','a')
-#         r.write(i.strip() + '\n')
-#         r.close()
